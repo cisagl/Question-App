@@ -7,6 +7,7 @@ const Result = () => {
 
     let correct = 0;
     let incorrect = 0;
+    let empty = 0;
 
     return (
         <div className="resultDiv" style={{ display: "none" }}>
@@ -19,6 +20,9 @@ const Result = () => {
                         if (answers[index] === questions[index].answer) {
                             correct++;
                             color = "green";
+                        } else if (answers[index] === "") {
+                            empty++;
+                            color = "black";
                         } else {
                             incorrect++;
                             color = "red";
