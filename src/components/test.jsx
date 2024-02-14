@@ -48,7 +48,7 @@ const Test = () => {
                 <h1 className="sec">{seconds}</h1>
             </div>
             <div className="questionImg">
-                <img src={question.media} alt="media" /> 
+                <img src={question.media} alt="media" width="300px" /> 
             </div>
             <div className="questionTitle">
                 <h2>{question.question}</h2>

@@ -1,5 +1,4 @@
 **Question App Readme File**
-
 This application is a test application that allows users to answer a specific number of questions within a certain time frame. Below are important details about how the application works.
 
 ### Project URL
