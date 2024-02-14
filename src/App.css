@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --turquoise: rgb(59, 229, 255);
+    --black: black;
+    --white: white;
+    --lGray: #ddd;
+    --danger: #ff4d4d;
+    --success: #00cc00;
+}
+
+.startDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--lGray);
+}
+
+#start {
+    background-color: var(--turquoise);
+    color: var(--black);
+    border-radius: 10px;
+    width: 700px;
+    height: 30px;
+    font-weight: bold;
+    border: none;
+}
+
+#start:hover {
+    background-color: var(--white);
+    color: var(--black);
+    border: 2px solid var(--turquoise);
+}
+
+.wlcm {
+    font-size: 4rem;
+    text-shadow: 1px 1px 1px var(--black);
+    margin-bottom: 40px;
+}
+
+.startInfo {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.startInfo li{
+    text-shadow: 1px 1px 1px var(--black);
+    padding-bottom: 3px;
+    color: var(--black);
+}
+
+.dngr {
+    background-color: var(--danger);
+}
+
+.questionDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.questionTitle {
+    margin-top: 30px;
+    width: 80%;
+    text-align: center;
+}
+
+.questionTitle h2 {
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.questionTitle h2:hover {
+    color: var(--turquoise);
+    transition: 2s;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.answerButton {
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    font-weight: bold;
+    border: none;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.answerButton:hover {
+    color: var(--black);
+    background-color: var(--turquoise);
+    transition: 2s;
+    border: #00cc00 2px solid;
+    font-size: 15px;
+}
+
+.rslt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--lGray);
+    color: var(--black);
+}
+
+.rslt li {
+    list-style: none;
+    text-align: center;
+}
+
+.rslt h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.rslt h2 {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 40px;
+    padding-right: 60px;
+}
+
+.correct {
+    color: var(--success);
+    text-shadow: 1px 1px 1px var(--black);
+}
+
+.incorrect {
+    color: var(--danger);
+    text-shadow: 1px 1px 1px var(--black);
+
+}
+
+.qA {
+    font-weight: bold;
+}
