@@ -147,7 +147,11 @@
 .incorrect {
     color: var(--danger);
     text-shadow: 1px 1px 1px var(--black);
+}
 
+.empty {
+    color: var(--black);
+    text-shadow: 1px 1px 1px var(--black);
 }
 
 .qA {
