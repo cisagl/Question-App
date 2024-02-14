@@ -39,6 +39,7 @@ const Result = () => {
                 <div className="score">
                     <h2 className="correct">Correct: {correct}</h2>
                     <h2 className="incorrect">Incorrect: {incorrect}</h2>
+                    <h2 className="empty">Empty: {empty}</h2>
                 </div>
             </div>
         </div>
