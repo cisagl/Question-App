@@ -52,7 +52,7 @@ const Test = () => {
                 <h2>{question.question}</h2>
             </div>
             <div className="buttons">
-                { question.options.map((option, index) => (
+                {seconds < 20 && question.options.map((option, index) => (
                     <button className="answerButton" key={index} onClick={() => handleAnswer(option)}>{option}</button>
                 ))}
             </div>
