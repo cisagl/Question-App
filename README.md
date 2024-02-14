@@ -1,8 +1,45 @@
-# React + Vite
+**Question App Readme File**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application is a test application that allows users to answer a specific number of questions within a certain time frame. Below are important details about how the application works.
 
-Currently, two official plugins are available:
+### Project URL
+URL where the application is live: [Question App](https://question-app-git-main-cahits-projects.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Technologies Used
+This project is developed using the following technologies:
+- React
+- JavaScript
+- HTML
+- CSS
+
+### Installation
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/cahits/Question-App.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd Question-App
+   ```
+
+3. Install the necessary dependencies:
+   ```
+   npm install
+   ```
+
+4. Start the project:
+   ```
+   npm start
+   ```
+
+### Contributing
+This project is open-source, and we welcome your contributions. If you find any bugs or have suggestions, please open an issue or submit a pull request.
+
+### License
+This project is licensed under the MIT License. For more information, see the [LICENSE](LICENSE) file.
+
+---
+This readme file covers the basic features and installation instructions of the Question App project. If you encounter any issues during development, feel free to reach out.
