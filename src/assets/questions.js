@@ -3,7 +3,7 @@ const questions = [
     question: "Çin Seddini oluşturan taşlar birbirine ne ile tutturulmuştur?",
     options: ["Bambu Harcı", "Anne Duası", "Pirinç Unu", "Noodle"],
     answer: "Pirinç Unu",
-    media: "https://prnt.sc/MmNRe1EHDsyM",
+    media: "https://www.indyturk.com/sites/default/files/styles/1368x911/public/article/main_image/2022/11/23/1058611-228941273.jpg?itok=FZA9i2AF",
   },
   {
     question: "İlk Pamuk şekeri bulan kişinin mesleği nedir?",
