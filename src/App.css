@@ -157,3 +157,10 @@
 .qA {
     font-weight: bold;
 }
+
+.sec {
+    top: 0;
+    left: 0;
+    margin: 20px;
+    color: var(--turquoise);
+}
