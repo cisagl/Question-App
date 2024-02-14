@@ -13,7 +13,7 @@ const questions = [
   },
   {
     question:
-      "Tarkan'ın 'Hüp' klibini izledikten sonra gaza gelip 'Tarkan keşke beni hüpletseydi' diye açıklamda bulunan kişi kimdir?",
+      "Tarkan'ın 'Hüp' klibini izledikten sonra gaza gelip 'Tarkan keşke beni hüpletseydi' diye açıklamada bulunan kişi kimdir?",
     options: ["Gülben Ergen", "Hülya Avşar", "Harika Avcı", "Sevtap Parman"],
     answer: "Gülben Ergen",
     media: "./images/tarkan.jpg",
