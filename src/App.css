@@ -158,9 +158,10 @@
     font-weight: bold;
 }
 
-.sec {
+.secondsDiv {
+    position: absolute;
     top: 0;
     left: 0;
-    margin: 20px;
+    margin: 100px;
     color: var(--turquoise);
 }

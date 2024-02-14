@@ -44,7 +44,9 @@ const Test = () => {
     
     return (
         <div className="questionDiv" style={{display:"none"}}>
-            <h1 className="sec">{seconds}</h1>
+            <div className="secondsDiv">
+                <h1 className="sec">{seconds}</h1>
+            </div>
             <div className="questionImg">
                 <img src={question.media} alt="media" /> 
             </div>
