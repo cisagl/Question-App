@@ -124,7 +124,7 @@
 
 .rslt li {
     list-style: none;
-    text-align: center;
+    text-align: start;
 }
 
 .rslt h1 {
@@ -168,4 +168,16 @@
 
 .questionImg img {
     filter: drop-shadow(0 0 0.75rem var(--turquoise));
+}
+
+.uls {
+    display: flex;
+}
+
+.rightAnswers {
+    margin-left: 50px;
+}
+
+.rightAnswers li{
+    text-align: start;
 }
